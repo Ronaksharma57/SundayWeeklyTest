@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+}
+nav{
+    display: inline;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+}
+.logo{
+    width: 50%; 
+    display: inline;
+}
+.info{
+    width: 50%;
+    display: inline;
+        float: right;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom:100px ;
+    
+}
+.info>div{
+    font-size: 120%;
+    height: 70%;
+    align-items: center;
+    padding: 4%; 
+    float: left;
+
+}
+
+.info>div:hover{
+    border-top: 3px solid darkcyan;
+    color: darkgrey;
+}
+.info>div a{
+    text-decoration: none;
+    font-size: 20px;
+    display:inline-block;
+}
+
+
+.sec1{
+    display: inline;
+    position: relative;
+    top: 4rem;
+}
+.desc{
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+}
+.desc>div{
+    display: inline-block;
+    width: 80%;
+    padding-left: 20px;
+}
+.desc div p{
+    padding-left: 20px;
+}
+.Img2{
+    width: 50%;
+    display: block;
+    float: right;
+    padding-top:20px ;
+}
+.Img2 i:hover{
+    color: gray;
+}
+.Img2 div img{
+    float: left;
+    display: inline-block;
+}
+.sec2{
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 button{
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+.sec2 button:hover{
+    color: gray;
+}
+
+footer{
+    position: relative;
+    top: 4rem;
+    align-items: center;
+    background-color: cadetblue;
+}
+footer div{
+    text-align: center;
+    color: wheat;
+}
+
+
